@@ -1,0 +1,22 @@
+Crear el Proyecto-Solución 
+***************************
+
+dotnet new webapi -n GraphQLMySQLQueryMutation 
+
+Dentro de la Carpeta GraphQLMySQLQueryMutation 
+***********************************************
+
+dotnet new sln -n GraphQLMySQLQueryMutation 
+dotnet sln GraphQLMySQL add GraphQLMySQLQueryMutation/GraphQLMySQLQueryMutation.sln
+
+Paquetes 
+*********
+
+dotnet add package GraphQL --version 8.0.2
+dotnet add package GraphQL.Server.All --version 8.0.2
+dotnet add package GraphQL.Server.Transports.AspNetCore --version 8.0.2 
+dotnet add package GraphQL.Server.Ui.Playground --version 8.0.2 
+dotnet add package Microsoft.AspNetCore.OpenApi --version 8.0.5 
+dotnet add package Microsoft.EntityFrameworkCore --version 8.0.8 
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.2 
+dotnet add package Swashbuckle.AspNetCore --version 6.4.0 
